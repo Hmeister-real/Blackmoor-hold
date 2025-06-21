@@ -44,9 +44,13 @@
 		H.mind.adjust_skillrank(/datum/skill/craft/alchemy, 2, TRUE)
 		H.change_stat("intelligence", 3)
 		H.change_stat("fortune", 1)
+		H.change_stat("strength", -1)
+		H.change_stat("constitution", -1)
 		if(H.age == AGE_OLD)
 			H.change_stat("speed", -1)
 			H.change_stat("intelligence", 1)
 			H.change_stat("perception", 1)
+			H.change_stat("strength", -1)
+			H.change_stat("constitution", -1)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/diagnose/secular)
 

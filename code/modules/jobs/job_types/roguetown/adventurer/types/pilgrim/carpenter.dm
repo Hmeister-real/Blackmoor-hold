@@ -50,6 +50,5 @@
 						)
 	H.change_stat("strength", 1)
 	H.change_stat("endurance", 2)
-	H.change_stat("constitution", 1)
 	H.change_stat("intelligence", 1)
-	H.change_stat("speed", -1)
+	H.change_stat("speed", -2)

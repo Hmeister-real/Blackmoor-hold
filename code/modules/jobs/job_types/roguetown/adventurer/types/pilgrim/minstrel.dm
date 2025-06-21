@@ -31,7 +31,6 @@
 						/obj/item/rogue/instrument/drum = 1,
 						/obj/item/flashlight/flare/torch = 1,
 						)
-	H.change_stat("strength", -1)
 	H.change_stat("speed", 1)  
 	H.change_stat("fortune", 1)
 	ADD_TRAIT(H, TRAIT_EMPATH, TRAIT_GENERIC)
